@@ -62,7 +62,7 @@
 	<div class="header">
 		<img src="logo2.jpg">
 		<h3>I'm Ngo Thanh Van<br>Lives at Taiwan<br>Have a nice day</h3>
-		<ul>	<li><a href="https://van-designer.github.io/">Home</a></li>
+		<ul>	<li><a href="https://van-designer.github.io">Home</a></li>
 				<li><a href="#">Blog</a></li>
 				<li><a href="https://www.facebook.com/profile.php?id=100025015758403"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a></li>
 				<li><a href="#"><i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i></a></li>     </ul>	
