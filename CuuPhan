@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<title>Ngo Thanh Van</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+		* {box-sizing: border-box;}
+		body {margin: 0; padding: 0; font-family: sans-serif;}
+		.header {position: fixed; width: 30%; height: 100%; background:url(https://user-images.githubusercontent.com/40930967/42424619-b7e1acec-8341-11e8-9178-011543f20b70.jpg); background-size: cover; background-repeat: no-repeat; margin: 0; padding: 150px 50px; text-align: right;}
+		.header img {width: 100px; height: 100px; border-radius: 50%}
+		.header h3 { font-family: 'Kaushan Script', cursive; font-size: 40px; color: #fff; }
+		.header ul li { list-style: none; margin-top: 30px;}
+		.header ul li a { font-weight: bold; color: #ff471a; text-decoration: none; text-transform: uppercase; }
+		.header p { margin-top: 200px; font-size: 15px; color: #0099ff; }
+
+		.content {position: relative; width: 70%; float: right; min-height: 100vh; padding: 150px 50px 50px;}
+		.content h1 { width: 960px; height: 150px; margin: 0 auto; text-align: center; font-family: 'Kaushan Script', cursive; color: #66b3ff; }
+	
+		.content .blog { width: 960px; margin: 0 auto; padding: 50px 0;}
+		.content .blog .baner { width: 960px; height: 100px; line-height: 100px; margin: 50px auto;; background: #f2f2f2; }
+		.content .blog section { width: 100%; min-height: 500px; margin-top: 20px;}
+		.content .blog section.sec1 p {text-align: justify; font-size: 20px;}
+
+		.footer {position: relative; width: 70%; float: right; height: 150px; padding: 10px 100px; text-align: center;}
+	
+		@media (max-width: 768px) {
+			body {margin: 0; padding: 0; font-family: sans-serif;}
+			.header {position: relative; width: 100%; background: url(https://user-images.githubusercontent.com/40930967/42424619-b7e1acec-8341-11e8-9178-011543f20b70.jpg); background-size: cover; background-repeat: no-repeat; margin: 0; padding: 50px 20px; text-align: center;}
+			.header img {width: 100px; height: 100px; border-radius: 50%}
+			.header h3 { font-family: 'Kaushan Script', cursive; font-size: 40px; color: #fff; }
+			.header ul li { list-style: none; margin-top: 20px;}
+			.header ul li a { font-weight: bold; color: #ff471a; text-decoration: none; text-transform: uppercase; }
+			.header p { margin-top: 50px; font-size: 15px; color: #0099ff;  }
+
+			.content {position: relative; width: 100%; min-height: 100vh; padding: 100px 20px;}
+			.content h1 { width: 100%; text-align: center; font-size: 20px; }
+			
+			.content .blog { width: 100%; margin: 0; padding: 2px;}
+			.content .blog .baner { width: 100%; height: 100px; line-height: 100px;background: #f2f2f2; font-size: 15px;}
+			.content .blog section { width: 100%; margin-top: 20px; text-align: justify;}
+			.content .blog section.sec1 p {margin: 10px auto; width: 100%; height: auto; float: none;}
+			.content .blog section.sec1 img { width: 100%;}
+
+			.footer {position: relative; width: 100%; height: 150px; padding: 10px 10px; }   }			
+	</style>	
+</head>
+<body>
+	<div class="header">
+		<img src="https://user-images.githubusercontent.com/40930967/42424625-cda6ff5a-8341-11e8-8d63-bd1983bff051.jpg">
+		<h3>I'm Ngo Thanh Van<br>Lives at Taiwan<br>Have a nice day</h3>
+		<ul>	<li><a href="#">Home</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="https://www.facebook.com/profile.php?id=100025015758403"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i></a></li>     </ul>	
+		<p>Thanks for visiting my blog</p>
+	</div>
+	<div class="content">
+		<h1>Nếu cố gắng để trở nên tốt đẹp hơn<br>Thì mọi thứ xung quanh ta cũng sẽ tốt đẹp hơn.</h1>		
+		<div class="blog">
+			<div class="baner"><h1>Làng cổ Cửu Phần</h1></div>
+			<section class="sec1">
+				<p>Cái tên Cửu Phần của thị trấn xuất phát từ giai đoạn đầu thời Nhà Thanh, khi ngôi làng miền núi này chỉ có chín hộ dân. Cửu Phần bắt đầu trở nên đông đúc vào cuối đời Nhà Thanh khi việc  khai thác vàng trở nên phổ biến ở hòn đảo này, đặc biệt là từ năm 1890 khi công nhân phát hiện ra vụn vàng khi xây dựg tuyến đường sắt Đài Bắc-Cơ Long chạy qua gần khu vực Cửu Phần và năm 1893 khi khu đãi vàng dưới chân các ngọn đồi của Cửu Phần bắt đầu tìm được vàng với sản lượng tới vài kg một ngày.</p>
+				<img src="https://user-images.githubusercontent.com/40930967/42478853-d45b76f6-8408-11e8-896e-5301ab334847.jpg" title="góc phố Cửu Phần">
+				<p>Ngoài ngắm cảnh, chúng ta có thể đắm mình vào ẩm thực của Cửu Phần với nhiều món đặc sản. Hấp dẫn nhất phải kể đến các loại bánh chế biến từ khoai với hương vị rất đặc trưng, nổi tiếng khắp Đài Loan. Cửa hàng bánh nhiều vô kể. Trước cửa, chủ quán đều bày các loại bánh được cắt nhỏ để du khách nếm thử trước khi mua.<br> Thị trấn vàng Cửu Phần trở nên đặc biệt phồn thịnh trong thời gian Đế quốc Nhật Bản chiếm đóng Đài Loan. Bởi vậy ngày nay kiến trúc Cửu Phần vẫn còn mang nhiều đặc điểm của thời kì thuộc địa với rất nhiều nhà trọ kiểu Nhật Bản vẫn còn hoạt động. Trong thời gian Chiến tranh thế giới thứ hai, một trại tù binh mang tên Kinkaseki (nay là Kim Qua Thạch) được lập nên ở đây để giam giữ các tù binh quân Đồng Minh bị bắt giữ sau Trận Singapore. Các hoạt động khai thác vàng ở Cửu Phần bắt đầu giảm dần sau Thế chiến và khu mỏ bị đóng cửa vào năm 1971, khiến thị trấn này dần rơi vào quên lãng.
+				Địa danh Cửu Phần bắt đầu được nhắc tới trở lại vào năm 1989 khi bộ phim Bi tình thành thị của đạo diễn Hầu Hiếu Hiền trở thành một tác phẩm ăn khách của Điện ảnh Đài Loan. Nói về một đề tài vốn bị coi là cấm kị trong nhiều năm là vụ Thảm sát ngày 28 tháng 2 của Quốc Dân Đảng, một trong số các bối cảnh chính của Bi tình thành thị là Cửu Phần. Bởi vậy công chúng bắt đầu quan tâm trở lại tới thị trấn này và Cửu Phần trở thành một địa điểm du lịch có tiếng với các tiệm cà phê, lầu trà, quán bán đồ lưu niệm mang phong cách hoài cổ theo kiểu Bi tình thành thị. Năm 2011 danh tiếng của Cửu Phần được biết tới ở tầm quốc tế sau khi bộ phim hoạt hình Nhật Bản Spirited Away của đạo diễn Miyazaki Hayao có nhiều bối cảnh lấy cảm hứng từ thị trấn này.</p>
+				<img src="https://user-images.githubusercontent.com/40930967/42478895-04364c20-8409-11e8-9616-52861ab110e8.jpg">
+				<p>Cách đi đến Cửu phần từ Taipei cũng đơn giản thôi: Đi MRT đến trạm MRT Zhongxiao Fuxing, ra ở cửa Exit 1 rồi đi ngược lại đến ngã tư đầu tiên thì rẽ trái, tiếp tục đi thẳng đến điểm đón xe bus số 1062. Vì làng cổ nằm trên sườn núi nên bạn chỉ có thể xuống xe ở 7Eleven, sau đó từ từ đi bộ lên những bậc thang khám phá làng cổ Cửu Phần. Trường hợp không biết đi MRT như thế nào thì cứ vào Google Market tải Taipei MRT xuống vào xem bản đồ nha.Đi lại ở Taiwan cũng rất tiện lợi vì hệ thống giao thông công cộng rất tuyệt và tiện lợi.<br>Nguồn <a href="https://vi.wikipedia.org/wiki/C%E1%BB%ADu_Ph%E1%BA%A7n" target="blank">wikipedia.</a></p>
+			</section>			
+		</div>						
+	</div>
+	<div class="footer"><p>&copy Ngo Thanh Van 2018 </p> </div>	 	
+</body>
+</html>
